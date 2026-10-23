@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iván Fernández</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Iván Fernández</h1>
+        <p>Estudiante de Análisis de Sistemas</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Soy estudiante de Licenciatura en Análisis de Sistemas. Me interesa la programación, la tecnología y el desarrollo de soluciones informáticas.</p>
+        </section>
+
+        <section>
+            <h2>Mi CV</h2>
+            <h3>Experiencia</h3>
+            <ul>
+                <li>Analista Funcional - Accenture</li>
+                <li>Analista Funcional - Edenor</li>
+            </ul>
+            <h3>Estudios</h3>
+            <ul>
+                <li>Licenciatura en Análisis de Sistemas - CAECE</li>
+                <li>Certificación Workday HCM</li>
+            </ul>
+            <h3>Conocimientos</h3>
+            <ul class="tags">
+                <li>Python</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Workday</li>
+                <li>Oracle</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <p>En mi tiempo libre me gusta:</p>
+            <ul>
+                <li>Programar</li>
+                <li>Jugar al fútbol</li>
+                <li>Jugar al tenis</li>
+                <li>Tocar la guitarra</li>
+                <li>Leer</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <p>Email: <a href="mailto:ivan@example.com">ivan@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com" target="_blank">Mi perfil</a></p>
+            <p>GitHub: <a href="https://github.com" target="_blank">Mi GitHub</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <?php echo date("Y"); ?> Iván Fernández</p>
+        <p class="php">Página generada con PHP <?php echo phpversion(); ?> el <?php echo date("d/m/Y H:i"); ?></p>
+    </footer>
+
+</body>
+</html>

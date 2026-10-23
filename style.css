@@ -1,0 +1,101 @@
+/* Estilos del sitio personal */
+
+
+/* Toda la página: tipografía, colores y ancho del contenido */
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #333333;
+	background-color: #f4f2ed;
+
+	/* Limita el ancho y centra el contenido en la pantalla */
+	max-width: 800px;
+	margin: 30px auto;
+	padding: 40px;
+
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+
+/* Título principal */
+h1 {
+	font-size: 32px;
+	color: #1f6f6b;
+	margin-bottom: 5px;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #1f6f6b;
+}
+
+
+/* Títulos de cada sección */
+h2 {
+	font-size: 22px;
+	color: #1f6f6b;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+
+
+/* Subtítulos */
+h3 {
+	font-size: 17px;
+	color: #555555;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+
+/* Párrafos */
+p {
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+
+/* Listas */
+ul {
+	margin-bottom: 20px;
+	padding-left: 25px;
+}
+
+li {
+	margin-bottom: 8px;
+}
+
+
+/* Enlaces */
+a {
+	color: #1f6f6b;
+}
+
+a:hover {
+	color: #144845;
+}
+
+
+/* Imágenes: nunca más anchas que su espacio */
+img {
+	max-width: 100%;
+	border: 1px solid #dddddd;
+}
+
+
+/* Pantallas chicas, como las de un celular */
+@media (max-width: 600px) {
+
+	body {
+		margin: 0;
+		padding: 20px;
+		border: none;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	p {
+		text-align: left;
+	}
+}
